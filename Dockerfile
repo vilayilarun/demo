@@ -1,3 +1,3 @@
 FROM nginx:latest
-MAINTAINER vilayilarun@gmail.com
+LABEL name="vilayilarun@gmail.com"
 COPY ./sample.html /usr/share/nginx/html/index.html
